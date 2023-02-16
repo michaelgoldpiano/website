@@ -1,0 +1,18 @@
+[Unit]
+Description=Service File For MGP
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node /var/www/mgp/mgp.js
+Restart=on-failure
+RestartSec=2
+StandardOutput=journal+console
+StandardError=journal+console
+Type=simple
+User=ubuntu
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_PORT=4000
+WorkingDirectory=/var/www/mgp
+
+[Install]
+WantedBy=multi-user.target
