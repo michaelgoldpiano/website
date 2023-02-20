@@ -11,33 +11,31 @@ export default function Acrobatics(): JSX.Element {
                 title="Fundamentals"
                 cards={[
                     <Card
-                        title="H2H Bumps WW W WW WW W WW"
-                        recordingDate="Recorded 2023.02.08"
-                        description=""
+                        title="H2H Bumps"
+                        subtitle="Recorded 2023.02.08"
+                        description={ null }
                         media={
                             <Video
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/h2h_bumps.mp4")}
-                                // type="video/mp4"
                             />
                         }
                     />,
                     <Card
                         title="F2H Bumps"
-                        recordingDate="Recorded 2023.02.05"
-                        description=""
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
                         media={
                             <Video
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/f2h_bumps.mp4")}
-                                // type="video/mp4"
                             />
                         }
                     />,
                     <Card
                         title="F2H Bumps (Slow)"
-                        recordingDate="Recorded 2023.02.05"
-                        description="And now for the slooow version"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
                         media={
                             <Video
                                 orientation={Orientation.PORTRAIT}
@@ -45,289 +43,206 @@ export default function Acrobatics(): JSX.Element {
                             />
                         }
                     />,
-                //     <div className="card">
-                //     <h1> F2H Bumps (Slow)</h1>
-                //     <h3>Recorded 2023.02.05</h3>
-                //     <p>
-                //         And now for the slooow version...
-                //     </p>
-                //     <video controls className="portrait">
-                //         <source
-                //             src={require("../assets/acrobatics/f2h_bumps_slow.mp4")}
-                //             type="video/mp4"
-                //         />
-                //     </video>
-                // </div>
-
-            //     <div className="card">
-            //         <h1>H2H Extended</h1>
-            //         <h3>Recorded 2023.02.05</h3>
-            //         <video controls className="portrait">
-            //             <source
-            //                 src={require("../assets/acrobatics/h2h_extended.mp4")}
-            //                 type="video/mp4"
-            //             />
-            //         </video>
-            //     </div>
-
-            //     <div className="card">
-            //         <h1>RH2H and Relocate</h1>
-            //         <h3>Recorded 2023.02.05</h3>
-            //         <video controls className="portrait">
-            //             <source
-            //                 src={require("../assets/acrobatics/rh2h_relocate.mp4")}
-            //                 type="video/mp4"
-            //             />
-            //         </video>
-            //     </div>
-
-            //     <div className="card">
-            //         <h1>H2H Walking</h1>
-            //         <h3>Recorded 2023.02.05</h3>
-            //         <video controls className="portrait">
-            //             <source
-            //                 src={require("../assets/acrobatics/h2h_walking.mp4")}
-            //                 type="video/mp4"
-            //             />
-            //         </video>
-            //     </div>
-
-            //     <div className="card">
-            //         <h1>Tuck and Straddle Walking</h1>
-            //         <h3>Recorded 2023.02.05</h3>
-            //         <video controls className="portrait">
-            //             <source
-            //                 src={require("../assets/acrobatics/tuck_straddle_walking.mp4")}
-            //                 type="video/mp4"
-            //             />
-            //         </video>
-            //     </div>
+                    <Card
+                        title="H2H Extended"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/h2h_extended.mp4")}
+                            />
+                        }
+                    />,
+                    <Card
+                        title="RH2H and Relocate"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/rh2h_relocate.mp4")}
+                            />
+                        }
+                    />,
+                    <Card
+                        title="H2H Walking"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/h2h_walking.mp4")}
+                            />
+                        }
+                    />,
+                    <Card
+                        title="Tuck and Straddle Walking"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/tuck_straddle_walking.mp4")}
+                            />
+                        }
+                    />,
                 ]}
             />
-
-            <h1>Fundamentals</h1>
-            <div className="gallery">
-                {/* <div className="card">
-                    <h1>H2H Bumps</h1>
-                    <h3>Recorded 2023.02.08</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/h2h_bumps.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div> */}
-
-                {/* <div className="card">
-                    <h1>F2H Bumps</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/f2h_bumps.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div> */}
-                
-                {/* <div className="card">
-                    <h1> F2H Bumps (Slow)</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <p>
-                        And now for the slooow version...
-                    </p>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/f2h_bumps_slow.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-
-                <div className="card">
-                    <h1>H2H Extended</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/h2h_extended.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-
-                <div className="card">
-                    <h1>RH2H and Relocate</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/rh2h_relocate.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-
-                <div className="card">
-                    <h1>H2H Walking</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/h2h_walking.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-
-                <div className="card">
-                    <h1>Tuck and Straddle Walking</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/tuck_straddle_walking.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div> */}
-            </div>
-
-            <h1>Competency Skills</h1>
-            <div className="gallery">
-                <div className="card">
-                    <h1>Toe Pitch to RF2H</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/pitch_rf2h.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-
-                <div className="card">
-                    <h1>Knot</h1>
-                    <h3>Recorded 2023.02.11</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/knot.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-
-                <div className="card">
-                    <h1>Inlocate and Shoot Through</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/inlocate_h2h_shootthrough.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-
-                <div className="card">
-                    <h1>F2H Bum Down</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/f2h_bumdown.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-            </div>
-
-            <h1>Bonus Skills</h1>
-            <div className="gallery">
-                <div className="card">
-                    <h1>Boom Boom</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/boomboom_h2h.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-
-                <div className="card">
-                    <h1>Tam Pam</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/tampam_h2h.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-
-                <div className="card">
-                    <h1>Cartwheel to H2H</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/cartwheel_h2h.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-
-                <div className="card">
-                    <h1>Pitch to Handstand on Shoulders</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/pitch_handstandshoulders.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-
-                <div className="card">
-                    <h1>Standing Shoulder Stand</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/highshoulderstand.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-            </div>
-
-            <h1>Group Work</h1>
-            <div className="gallery">
-                <div className="card">
-                    <h1>3-High</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/3high.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-
-                <div className="card">
-                    <h1>Swing to H2h</h1>
-                    <h3>Recorded 2023.02.13</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/swing_h2h.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div>
-
-                {/* <div className="card">
-                    <h1>Banquine</h1>
-                    <h3>Recorded 2023.02.05</h3>
-                    <video controls className="portrait">
-                        <source
-                            src={require("../assets/acrobatics/banquine.mp4")}
-                            type="video/mp4"
-                        />
-                    </video>
-                </div> */}
-            </div>
+            <Gallery
+                title="Competency Skills"
+                cards={[
+                    <Card
+                        title="Toe Pitch to RF2H"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/pitch_rf2h.mp4")}
+                            />
+                        }
+                    />,
+                    <Card
+                        title="Knot"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/knot.mp4")}
+                            />
+                        }
+                    />,
+                    <Card
+                        title="Inlocate and Shoot Through"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/inlocate_h2h_shootthrough.mp4")}
+                            />
+                        }
+                    />,
+                    <Card
+                        title="F2H Bum Down"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/f2h_bumdown.mp4")}
+                            />
+                        }
+                    />,
+                ]}
+            />
+            <Gallery
+                title="Bonus Skills"
+                cards={[
+                    <Card
+                        title="Boom Boom to H2H"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/boomboom_h2h.mp4")}
+                            />
+                        }
+                    />,
+                    <Card
+                        title="Tam Pam to H2H"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/tampam_h2h.mp4")}
+                            />
+                        }
+                    />,
+                    <Card
+                        title="Cartwheel to H2h"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/cartwheel_h2h.mp4")}
+                            />
+                        }
+                    />,
+                    <Card
+                        title="Pitch to Handstand on Shoulders"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/pitch_handstandshoulders.mp4")}
+                            />
+                        }
+                    />,
+                    <Card
+                        title="Standing Shoulder Stand"
+                        subtitle="Recorded 2023.02.15"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/highshoulderstand.mp4")}
+                            />
+                        }
+                    />,
+                ]}
+            />
+            <Gallery
+                title="Group Work"
+                cards={[
+                    <Card
+                        title="3-High"
+                        subtitle="Recorded 2023.02.05"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/3high.mp4")}
+                            />
+                        }
+                    />,
+                    <Card
+                        title="Swing to H2H"
+                        subtitle="Recorded 2023.02.013"
+                        description={ null }
+                        media={
+                            <Video
+                                orientation={Orientation.PORTRAIT}
+                                src={require("../assets/acrobatics/swing_h2h.mp4")}
+                            />
+                            // <iframe
+                            //     src="https://drive.google.com/file/d/1crZpDUbZMa_3JjqpjRU3SGey8Uh_1uqU/preview"
+                            //     title="Google Drive Video"
+                            //     width="640"
+                            //     height="480"
+                            //     allow="autoplay">
+                            // </iframe>
+                        }
+                    />,
+                    // <Card
+                    //     title="Banquine"
+                    //     subtitle="Recorded 2023.02.05"
+                    //     description={ null }
+                    //     media={
+                    //         <Video
+                    //             orientation={Orientation.PORTRAIT}
+                    //             src={require("../assets/acrobatics/banquine.mp4")}
+                    //         />
+                    //     }
+                    // />,
+                ]}
+            />
         </div>
     );
 }

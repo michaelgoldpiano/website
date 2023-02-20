@@ -107,7 +107,7 @@ export default function Audio(): JSX.Element {
                     in combat.
                 </p>
                 <p>
-                    This movement, the Prélude, is perpetually in motion, as
+                    The Prélude is perpetually in motion, as
                     though to be played on a harpsichord that Couperin or
                     Scarlatti used.  The harmonies are of Ravel's time, with
                     chromaticism and influences of jazz.  The flurry at the

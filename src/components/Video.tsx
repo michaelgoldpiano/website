@@ -16,6 +16,9 @@ export default function Video({orientation, src}: Props): JSX.Element {
     return (
         <video controls
             style={{
+                // objectFit: "cover",
+                // width: "100%",
+                // height: "100%",
                 "aspectRatio": orientation,
             }}
         >

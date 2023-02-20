@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, NavLink } from "react-router-dom";
-import "../css/style.css";
+// import "../css/style.css";
 
 
 export default function Layout(): JSX.Element {

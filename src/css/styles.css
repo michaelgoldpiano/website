@@ -142,12 +142,24 @@ body {
     /* margin: 1vw auto; */
     /* border: 1vw solid #999; */
 }
+.gallery h1 {
+    margin: 5px auto;
+    font-size: 18pt;
+}
 .gallery .card {
     display: grid;
     grid-template-rows: auto auto auto;
     width: 87%;
+    font-size: 8pt;
     /* padding: 25px 4%; */
     /* margin: 4%; */
+}
+.gallery .card h1 {
+    font-size: 14pt;
+}
+.gallery .card h2 {
+    font-size: 10pt;
+    color: #999;
 }
 
 
@@ -198,6 +210,8 @@ body {
     text-align: justify;
 }
 
+
+
 /* Link */
 .card a:link {
     color: #ffffff;
@@ -212,14 +226,19 @@ body {
     color: #517aab;
 }
 
+
+
 /* Media */
-audio, video, iframe.youtube {
+audio {
     display: flex;
     margin: auto;
-    padding: 1vw;
+}
+video, iframe.youtube {
+    display: flex;
+    margin: auto;
+    padding: 2%;
+    box-sizing: border-box;
     background-color: #333;
-    width: 320;
-    height: 210;
 }
 video.landscape, iframe.youtube {
     aspect-ratio: 16 / 9;
@@ -233,8 +252,9 @@ video, iframe.youtube {
     left: 0;
     bottom: 0;
     right: 0;
-    width: 70%;
+    width: 95%;
 }
+
 
 
 /*---==|>  .art  <|==---*/
@@ -375,8 +395,15 @@ video, iframe.youtube {
     .card {
         width: 80%;
     }
+    .card h1 {
+        font-size: 2vw;
+    }
     .card video, .card iframe.youtube {
         width: 80%;
+    }
+
+    .gallery {
+        grid-template-columns: 50% 50%;
     }
     
 }
@@ -410,7 +437,7 @@ video, iframe.youtube {
 @media only screen and (max-width: 37.5em) {
     .nav {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         justify-content: center;
         padding: .5vw;
@@ -424,7 +451,10 @@ video, iframe.youtube {
         padding: .1vw 0;
     }
     .page h1 {
-        font-size: 100%;
+        font-size: 18pt;
+    }
+    .page h2 {
+        margin: 5px auto;
     }
     .page p, .page blockquote {
         font-size: 70%;
@@ -444,6 +474,10 @@ video, iframe.youtube {
         padding: 1.5vw;
     }
     .card video, .card iframe.youtube {
-        width: 90%;
+        width: 80%;
+    }
+
+    .gallery {
+        grid-template-columns: 100%;
     }
 }
