@@ -11,14 +11,11 @@ interface Props {
 }
 
 
-export default function Video({orientation, src}: Props): JSX.Element {
+export default function VideoElement({orientation, src}: Props): JSX.Element {
     const extension: string | undefined = src.split(".").pop();
     return (
         <video controls
             style={{
-                // objectFit: "cover",
-                // width: "100%",
-                // height: "100%",
                 "aspectRatio": orientation,
             }}
         >
@@ -26,6 +23,7 @@ export default function Video({orientation, src}: Props): JSX.Element {
                 src={src}
                 type={"video/" + extension}
             />
+            Your browser does not support the video tag.
         </video>
     );
 }

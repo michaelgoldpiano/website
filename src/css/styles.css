@@ -183,7 +183,9 @@ body {
     font-size: 12pt;
     text-align: center;
     color: #aaa;
+    text-shadow: 1pt 1pt #222;
     padding: .3vw;
+    padding-bottom: 15px;
     margin: 0;
 }
 .card h3 {

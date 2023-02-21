@@ -1,7 +1,7 @@
 import React from "react";
 import Gallery from "../components/Gallery";
 import Card from "../components/Card";
-import Video, { Orientation } from "../components/Video";
+import VideoElement, { Orientation } from "../components/Video";
 
 
 export default function Acrobatics(): JSX.Element {
@@ -15,7 +15,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.08"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/h2h_bumps.mp4")}
                             />
@@ -26,7 +26,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/f2h_bumps.mp4")}
                             />
@@ -37,7 +37,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/f2h_bumps_slow.mp4")}
                             />
@@ -48,7 +48,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/h2h_extended.mp4")}
                             />
@@ -59,7 +59,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/rh2h_relocate.mp4")}
                             />
@@ -70,7 +70,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/h2h_walking.mp4")}
                             />
@@ -81,7 +81,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/tuck_straddle_walking.mp4")}
                             />
@@ -97,7 +97,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/pitch_rf2h.mp4")}
                             />
@@ -108,7 +108,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/knot.mp4")}
                             />
@@ -119,7 +119,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/inlocate_h2h_shootthrough.mp4")}
                             />
@@ -130,7 +130,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/f2h_bumdown.mp4")}
                             />
@@ -146,7 +146,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/boomboom_h2h.mp4")}
                             />
@@ -157,7 +157,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/tampam_h2h.mp4")}
                             />
@@ -168,7 +168,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/cartwheel_h2h.mp4")}
                             />
@@ -179,7 +179,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/pitch_handstandshoulders.mp4")}
                             />
@@ -190,7 +190,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.15"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/highshoulderstand.mp4")}
                             />
@@ -206,7 +206,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.05"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/3high.mp4")}
                             />
@@ -217,7 +217,7 @@ export default function Acrobatics(): JSX.Element {
                         subtitle="Recorded 2023.02.013"
                         description={ null }
                         media={
-                            <Video
+                            <VideoElement
                                 orientation={Orientation.PORTRAIT}
                                 src={require("../assets/acrobatics/swing_h2h.mp4")}
                             />

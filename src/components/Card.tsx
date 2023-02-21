@@ -2,8 +2,8 @@ import React from "react";
 
 
 interface Props {
-    title: string;
-    subtitle: string;
+    title: string | JSX.Element;
+    subtitle: string | JSX.Element;
     description: JSX.Element | null;
     media: JSX.Element | null;
 }
