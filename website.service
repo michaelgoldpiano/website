@@ -1,9 +1,9 @@
 [Unit]
-Description=Service File For MGP
+Description=Service File For Website
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/node /var/www/mgp/mgp.js
+ExecStart=/usr/bin/node /home/mike/website/website.js
 Restart=on-failure
 RestartSec=2
 StandardOutput=journal+console
@@ -12,7 +12,7 @@ Type=simple
 User=ubuntu
 Environment=PATH=/usr/bin:/usr/local/bin
 Environment=NODE_PORT=4000
-WorkingDirectory=/var/www/mgp
+WorkingDirectory=/home/mike/website
 
 [Install]
 WantedBy=multi-user.target
